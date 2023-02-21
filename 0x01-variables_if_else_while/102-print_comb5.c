@@ -3,7 +3,9 @@
  * main - main block
  * Description: A program that prints all possible combinations
  * Numbers must be separated by ,, followed by a space
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	int i, j;
