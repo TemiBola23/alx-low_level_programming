@@ -1,19 +1,18 @@
 #include "main.h"
 
 /**
- * print_nunbers - prints nunbers from 0 to 9.
+ * print_numbers - prints numbers from 0 to 9.
  *
- * Return: nothing on success
+ * Return: void
  */
 
-void print_nunbers(void)
+void print_numbers(void)
 {
-	int start = 0, end = 9;
+	char c;
 
-	while (start <= end)
+	for (c = '0', c = '9', c++)
 	{
-		_putchar(start + '0');
-		start++;
+		_putchar(c);
 	}
 	_putchar('\n');
 }
