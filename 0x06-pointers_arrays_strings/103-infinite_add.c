@@ -53,7 +53,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		if (i < 0)
 			val1 = 0;
 		else
-			val1 = *(n1 + i) - '0';
+			va11 = *(n1 + i)-'0';
 		if (j < 0)
 			val2 = 0;
 		else
@@ -76,4 +76,3 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	rev_string(r);
 	return (r);
 }
-
