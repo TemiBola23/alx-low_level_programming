@@ -3,8 +3,8 @@
 
 /**
 * *argstostr - concatenates all the arguments of the program
-* @ac: number of arguments
-* @av: array of arguments
+* @ac: The number of command-line arguments.
+* @av: An array of strings containing the command-line arguments.
 *
 * Return: Pointer to the new string (Success), NULL (Error)
 */
