@@ -3,10 +3,14 @@
 #include <stdlib.h>
 
 /**
- * main - check the code for ALX School students.
+ * main - Entry point for the program.
  *
- * Return: Always 0.
+ * @ac: The number of command-line arguments.
+ * @av: An array of strings containing the command-line arguments.
+ *
+ * Return: 0 if successful, otherwise 1.
  */
+
 int main(int ac, char *av[])
 {
 	char *s;
